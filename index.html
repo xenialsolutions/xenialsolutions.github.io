@@ -1,1 +1,130 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Business Name | Programming Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    nav {
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #004080;
+      font-weight: 600;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #004080;
+      margin-bottom: 1rem;
+    }
+    .services ul {
+      list-style: disc;
+      padding-left: 1.5rem;
+    }
+    .contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Your Business Name</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Outsourced Programming Services</h1>
+    <p>Based in Brazil. Serving international clients with clean, efficient code.</p>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      We are a Brazil-based software development business focused exclusively on international contracts.
+      With a strong track record as a third-party contractor, we offer backend solutions, system integration,
+      and scalable architectures tailored to your project needs.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Backend Development</li>
+      <li>API Design & Integration</li>
+      <li>Cloud Architecture (Azure, AWS)</li>
+      <li>PDF and XML Processing</li>
+      <li>Legacy System Modernization</li>
+      <li>SaaS Application Support</li>
+    </ul>
+    <p><em>We work through direct contracts only – no intermediaries.</em></p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>
+      With years of experience across industries like fintech, logistics, and health tech, we deliver stable and efficient
+      software solutions. From single-function modules to full system overhauls, we support your tech goals with proven code.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+      Interested in working with us?<br />
+      Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Business Name. All rights reserved.
+  </footer>
+</body>
+</html>
